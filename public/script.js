@@ -29,7 +29,7 @@ async function fetchRooms() {
     </td>
     <td class="price">Rp ${room.price.toLocaleString("id-ID")}</td>
     <td>
-    <button class="delete-btn" onclick="deleteRoom(${room.id})">
+    <button class="delete-btn" onclick="deleteRoom('${room._id}')">
     <i class="fas fa-trash"></i> Hapus
     </button>
     </td>
@@ -60,8 +60,8 @@ roomForm.addEventListener("submit", async (e) => {
 });
 
 // Delete room
-async function deleteRoom(id) {
-  await fetch(`${API_URL}/${id}`, { method: "DELETE" });
+async function deleteRoom(_id) {
+  await fetch(`${API_URL}/${_id}`, { method: "DELETE" });
   fetchRooms();
 }
 
