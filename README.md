@@ -22,11 +22,8 @@ Membuat backend sederhana untuk mengelola data kamar hotel (Hotel Room Managemen
 - Form untuk menambah kamar baru  
 - Tombol hapus di setiap baris untuk menghapus kamar  
 - Responsif (desktop & mobile)  
-
-### 🌟 Bonus
 - Field tambahan `imageURL`  
 - Validasi form agar semua field wajib diisi  
-- Desain UI mockup (opsional)  
 
 ---
 
