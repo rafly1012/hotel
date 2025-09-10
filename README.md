@@ -41,5 +41,6 @@ Membuat backend sederhana untuk mengelola data kamar hotel (Hotel Room Managemen
 
 ### 1. Clone Repo
 ```bash
-git clone https://github.com/username/hotel-room-api.git
-cd hotel-room-api
+git clone https://github.com/rafly1012/hotel.git
+cd hotel
+npm install
